@@ -6,10 +6,13 @@ const Layout = () => {
   return (
     <div>
         <nav>
-        <a href='/'><li>Home</li></a>
-        {/* <a href='/women'><li>Women</li></a> */}
+            <ul>
+                <a href='/'><li>Home</li></a>
+                {/* <a href='/women'><li>Women</li></a> */}
 
-            <li><Link to="/women">Women</Link></li>
+                    <li><Link to="/women">Women</Link></li>
+
+            </ul>
         </nav>
         <p>Index</p>
         <Outlet/>
