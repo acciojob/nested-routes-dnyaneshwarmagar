@@ -18,7 +18,11 @@ const App = () => {
           </Route>
         </Routes>
 
-        
+        <nav>
+            <ul>
+                <a href='/'><li>Home</li></a>
+                </ul>
+                </nav>
     </main>
   )
 }
