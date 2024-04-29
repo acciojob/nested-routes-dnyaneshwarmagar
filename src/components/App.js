@@ -8,7 +8,7 @@ import Item from "./Item";
 
 const App = () => {
   return (
-    <div>
+    <main>
         {/* Do not remove the main div */}
         <Routes>
           <Route path="/" element={<Layout/>}>
@@ -17,7 +17,7 @@ const App = () => {
             </Route>
           </Route>
         </Routes>
-    </div>
+    </main>
   )
 }
 

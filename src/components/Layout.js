@@ -5,10 +5,12 @@ const Layout = () => {
     
   return (
     <div>
-        <ul>
-        <li><Link to="/">Home</Link></li>
+        <nav>
+        <a href='/'><li>Home</li></a>
+        {/* <a href='/women'><li>Women</li></a> */}
+
             <li><Link to="/women">Women</Link></li>
-        </ul>
+        </nav>
         <Outlet/>
     </div>
   )
