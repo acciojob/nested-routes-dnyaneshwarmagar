@@ -18,11 +18,7 @@ const App = () => {
           </Route>
         </Routes>
 
-        <nav>
-            <ul>
-            <li><a href='/'>Home</a></li>
-                </ul>
-                </nav>
+        
     </main>
   )
 }
