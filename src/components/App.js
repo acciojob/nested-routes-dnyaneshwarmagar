@@ -20,7 +20,7 @@ const App = () => {
 
         <nav>
             <ul>
-                <a href='/'><li>Home</li></a>
+            <li><a href='/'>Home</a></li>
                 </ul>
                 </nav>
     </main>

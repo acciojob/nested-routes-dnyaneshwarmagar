@@ -7,7 +7,7 @@ const Layout = () => {
     <div>
         <nav>
             <ul>
-                <a href='/'><li>Home</li></a>
+                <li><a href='/'>Home</a></li>
                 {/* <a href='/women'><li>Women</li></a> */}
 
                     <li><Link to="/women">Women</Link></li>
